@@ -1,0 +1,198 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; 
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+form button {
+    width: 60%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ffcc00;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+#login-button{
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: #ffcc00;
+        color: #000;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #login-button:hover {
+        background-color: #e6b800;
+    }
+#register-button{
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: #ffcc00;
+        color: #000;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #register-button:hover {
+        background-color: #e6b800;
+    }
+
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#player-container {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#player-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+#options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#options-container button {
+    width: 150px; 
+    height: 100px; 
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#options-container button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+#options-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+#timer-container {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #ffcc00;
+}
+
+#result-container {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#ranking-container {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 97%;
+}
+
+#ranking-list {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #db1c1c;
+    display: flex 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+#ranking-button{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #ffcc00;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

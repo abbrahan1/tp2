@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" style="background-color: #888888;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Copa América</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Copa América</h1>
+
+        <div id="register-container">
+            <h2>Registro</h2>
+            <form id="register-form">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required autocomplete="username">
+                <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+                <input type="password" id="password" name="password" placeholder="Contraseña" required autocomplete="new-password">
+                <button type="submit">Registrar</button>
+            </form>
+            <button id="login-button">Iniciar Sesión</button>
+        </div>
+
+        <div id="login-container" style="display: none;">
+            <h2>Inicio de Sesión</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" name="email" placeholder="Email" required autocomplete="username">
+                <input type="password" id="login-password" name="password" placeholder="Contraseña" required autocomplete="current-password">
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <button id="register-button">Registrar</button>
+        </div>
+
+        <div id="game-container" style="display: none;">
+            <p style="text-align: center; font-size: 25px; margin-bottom: 20px; color:#bdbb4e;">Jugador:</p>
+            <div id="player-container">
+                <div style="text-align: center; font-size: 25px; margin-bottom: 20px; color:#efeb19;" id="Nombre_jugador"></div>
+                <div id="Foto_jugador"></div> 
+            </div>
+            <div id="options-container"></div>
+            <div id="timer-container">
+                <p id="Tiempo">Tiempo: 35s</p>
+            </div>
+            <button id="ranking-button">Ver Ranking</button>
+            <div id="ranking-container" style="display: none;">
+                <h2>Ranking</h2>
+                <hr>
+                <div id="ranking-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
